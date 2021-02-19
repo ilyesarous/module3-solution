@@ -11,7 +11,41 @@ body{
     border: 0;
 }
 
-h1{
+.logo-img a:hover, .logo-img a:focus {
     text-decoration: none;
-    color: black;   
+}
+
+.logo-img a{
+    color: black;
+    font-size: xx-large;
+}
+
+.container-fluid{
+    margin-top: 50px;
+    background-color: rgb(167, 166, 166);
+    height: 1000px;
+}
+
+#nav-list li a p{
+    font-size: 20px;
+    background-color: white;
+}
+.navbar-nav li{
+    margin-top: -15px;
+}
+.navbar-nav li .sushi{
+    margin-top: -10px;
+}
+.navbar-nav li .beef{
+    margin-top: -10px;
+}
+
+.navbar-toggle{
+    height: 35px;
+}
+
+@media (max-width: 767px){
+    .logo-img a{
+        margin-left: 15px;
+    }
 }

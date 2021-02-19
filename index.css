@@ -1,0 +1,17 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;;
+}
+
+#header-nav{
+    background-color: rgb(167, 166, 166);
+    border-radius: 0;
+    border: 0;
+}
+
+h1{
+    text-decoration: none;
+    color: black;   
+}
